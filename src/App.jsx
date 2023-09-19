@@ -30,6 +30,7 @@ function App() {
     newTasks.push(taskName)
     settasks(newTasks);
     input.current.value = ""
+    settaskName("")
 
   }
    
